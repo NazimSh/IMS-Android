@@ -1,0 +1,156 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-07-07T20:36:18.200Z",
+        "before": [
+          {
+            "result": {
+              "duration": 9558467778,
+              "status": "passed"
+            },
+            "match": {
+              "location": "beforeActions.seUp()"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "Verify Android IMS Pre-login page details",
+        "description": "",
+        "id": "ims-pre-login-page-details;verify-android-ims-pre-login-page-details;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 453722532,
+              "status": "passed"
+            },
+            "match": {
+              "location": "afterActions.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 93238384,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Launch IMS App",
+            "match": {
+              "location": "IMSStepDefinitions.Launch_Envoy_Restaurant_Portal()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1463072975,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Verify Wonder logo W",
+            "match": {
+              "location": "IMSStepDefinitions.Verify_Wonder_logo_W()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 51190156,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Verify Inventory Management System",
+            "match": {
+              "location": "IMSStepDefinitions.Verify_Inventory_Management_System()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 51037661,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Verify Please log in to access your Wonder IMS account",
+            "match": {
+              "location": "IMSStepDefinitions.Verify_Please_log_in_to_access_your_Wonder_IMS_account()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 53899785,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Verify Log In Button",
+            "match": {
+              "location": "IMSStepDefinitions.Verify_Log_In_Button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 69418137,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Verify App Environemnt",
+            "match": {
+              "location": "IMSStepDefinitions.Verify_App_Environemnt()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 55876450,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Verify App version",
+            "match": {
+              "location": "IMSStepDefinitions.Verify_App_version()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 50269707,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Verify App Bundle Id",
+            "match": {
+              "location": "IMSStepDefinitions.Verify_App_Bundle_Id()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Regression"
+          },
+          {
+            "name": "@Sanity"
+          },
+          {
+            "name": "@Auto"
+          },
+          {
+            "name": "@IMDPreLoginDetails"
+          }
+        ]
+      }
+    ],
+    "name": "IMS Pre-login page details",
+    "description": "",
+    "id": "ims-pre-login-page-details",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/IMSFeatureFiles/IMSPreLoginDetails.feature",
+    "tags": []
+  }
+]
